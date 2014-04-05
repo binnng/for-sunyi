@@ -1,0 +1,21 @@
+{
+  "name": "for sunyi",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "a plugin to download videos",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": ["tabs", "http://*/*"],
+  "content_scripts": [{
+    "matches": [
+      "http://m.tv.sohu.com/*"
+    ],
+    "js": ["zepto.js", "app.js"],
+    "run_at": "document_end"
+  }],
+  "browser_action": {
+    "default_title": "",
+    "default_icon": "icon.png"
+  }
+}
