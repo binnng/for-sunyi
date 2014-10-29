@@ -1,5 +1,6 @@
 for-sunyi
 =========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/binnng/for-sunyi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 一个可以下载视频的Chrome插件
 
